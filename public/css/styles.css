@@ -1,0 +1,92 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFDCDC;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-width: 375px;
+}
+
+.header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  height: 100px;
+  background-color: #FF9292;
+}
+
+.logo {
+  margin: 0;
+  padding: 25px;
+  position: relative;
+  right: 30%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.listOfLists {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.listOfTodos {
+  margin: 0 auto 0 auto;
+  display: flex;
+}
+
+.listTitle {
+  padding: 5px;
+}
+
+.listLink {
+  padding-left: 45px;
+  text-decoration: none;
+  color: #FF9292;
+}
+
+.list {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+.css-input {
+  border: 0;
+  background-color: #FFDCDC;
+  border-bottom: 1px solid lightgrey;
+}
+
+::placeholder {
+  color: rgba(163, 162, 160, 0.5);
+}
+
+*:focus {
+  outline: none;
+}
+
+.submit-btn {
+  border-radius: 110%;
+  border: 0;
+  background-color: #FF9292;
+  font-size: 1.5rem;
+  margin-left: 25px;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #FFB4B4;
+}
+
+.footer {
+  background-color: #565656;
+  color: rgba(255, 146, 146, 0.5);
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  margin-bottom: -3px;
+}
